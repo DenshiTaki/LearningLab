@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кабинет массажа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                <img src="https://media.istockphoto.com/id/1450533759/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D1%87%D0%B5%D1%80%D0%BD%D0%BE-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9-%D0%BC%D0%B0%D1%81%D1%81%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9-%D1%81%D0%B0%D0%BB%D0%BE%D0%BD-%D1%81%D0%BF%D0%B0-%D1%81%D0%B0%D0%BB%D0%BE%D0%BD-%D0%BC%D0%B0%D1%81%D1%81%D0%B0%D0%B6-%D1%81%D0%BF%D0%B8%D0%BD%D1%8B.jpg?s=612x612&w=0&k=20&c=0iqky1rFXRsT3UMotfy7jhh0fq7c16e-n0IPkZZknn0=" alt="Логотип массажа">
+            </a>
+            <h1>Массаж с заботой</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-overlay">
+            <div class="hero-text">
+                <h2>Ощутите настоящее расслабление</h2>
+                <p>Ваш идеальный массаж в уютной и расслабляющей атмосфере</p>
+                <a href="#services" class="button">Посмотреть услуги</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Наш массажный кабинет предлагает расслабляющие процедуры, которые помогут вам восстановить баланс и зарядиться энергией.</p>
+        <div class="about-images">
+            <img src="https://media.istockphoto.com/id/1392721421/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B0%D0%B5%D1%82-%D1%80%D0%B0%D1%81%D1%81%D0%BB%D0%B0%D0%B1%D0%BB%D1%8F%D1%8E%D1%89%D0%B8%D0%B9-%D0%BC%D0%B0%D1%81%D1%81%D0%B0%D0%B6-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80.jpg?s=612x612&w=0&k=20&c=UsHDFW16mveCe4sSKsyRDRFw6llFY6GOGK8Ukg7pwNI=" alt="Массаж 1">
+            <img src="https://media.istockphoto.com/id/870925992/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B8-%D0%BF%D0%B5%D0%B4%D0%B8%D0%BA%D1%8E%D1%80-%D1%8D%D0%BC%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B-%D1%81%D0%BF%D0%B0-%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0-%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D1%82%D1%8B.jpg?s=612x612&w=0&k=20&c=K_GsnqQb0PGz46RX1E_TXttBOxwwB9wev-u31Zma-b8=" alt="Массаж 2">
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <div class="service">
+            <h3>Классический массаж</h3>
+            <p>Ощутите расслабление после сеанса классического массажа всего тела.</p>
+        </div>
+        <div class="service">
+            <h3>Тайский массаж</h3>
+            <p>Восточные техники для глубокого расслабления и восстановления.</p>
+        </div>
+        <div class="service">
+            <h3>Спортивный массаж</h3>
+            <p>Идеально подходит для тех, кто занимается спортом или испытывает мышечное напряжение.</p>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами для записи на сеанс или для получения дополнительной информации.</p>
+        <form id="contact-form">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="button">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Кабинет массажа. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
